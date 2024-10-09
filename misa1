@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сигма Президиум</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png'); /* Зернистый фон */
+        }
+        header {
+            background: linear-gradient(90deg, #1a1a1a, #333333);
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #c0392b; /* Глубокий красный */
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 700;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #e74c3c; /* Бордовый акцент */
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .card {
+            background-color: #2a2a2a;
+            border-radius: 8px;
+            margin: 20px 0;
+            padding: 20px;
+            transition: 0.3s;
+        }
+        .card:hover {
+            background-color: #3a3a3a;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Легкая тень */
+        }
+        h2 {
+            color: #e74c3c; /* Бордовый акцент */
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+        }
+        button {
+            background-color: #e74c3c;
+            color: #f5f5f5;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Сигма Президиум</h1>
+    <nav>
+        <a href="#youtube">YouTube</a>
+        <a href="#scripts">Сценарии</a>
+        <a href="#modding">Моддинг</a>
+        <a href="#haircuts">Стрижки</a>
+        <a href="#blog">Блог</a>
+    </nav>
+</header>
+
+<section id="youtube">
+    <h2>YouTube и видео-проекты</h2>
+    <div class="card">
+        <h3>Последние видео</h3>
+        <p>Здесь будут отображаться последние видео с вашего канала.</p>
+        <button>Смотреть видео</button>
+    </div>
+</section>
+
+<section id="scripts">
+    <h2>Сценарии и режиссура</h2>
+    <div class="card">
+        <h3>Мои сценарии</h3>
+        <p>Информация о ваших сценариях и проектах.</p>
+        <button>Узнать больше</button>
+    </div>
+</section>
+
+<section id="modding">
+    <h2>Моддинг</h2>
+    <div class="card">
+        <h3>Мой мод для Fallout</h3>
+        <p>Детали о вашем моде и ссылка на скачивание.</p>
+        <button>Скачать мод</button>
+    </div>
+</section>
+
+<section id="haircuts">
+    <h2>Мужские стрижки</h2>
+    <div class="card">
+        <h3>Галерея стрижек</h3>
+        <p>Примеры ваших работ и информация о ценах.</p>
+        <button>Записаться</button>
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Блог "О кино и креативе"</h2>
+    <div class="card">
+        <h3>Статьи о кино</h3>
+        <p>Анализ и размышления о фильмах.</p>
+        <button>Читать статью</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Сигма Президиум. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
